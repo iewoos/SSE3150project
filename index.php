@@ -87,7 +87,7 @@
 						echo("</td><td>");
 						echo($row['venue']);
 						echo("</td><td>");
-						echo '<img src="data:image/png;base64,'.base64_encode($row['image']).'" alt="Image" style="width:200px; height:150px;" />';
+						echo '<img src="data:image;base64,'.base64_encode($row['image']).'" alt="Image" style="width:200px; height:150px;" />';
 						echo("</td><td>");
 						}
 					?>
